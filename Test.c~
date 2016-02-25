@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+          float f = rand();
+          printf("%d\n",f);
+          return 0;
+}

@@ -1,0 +1,10 @@
+/**/
+启动黑屏问题
+修改grub
+
+
+在Linux下按Ctrl+Alt+T打开终端，输入sudo gedit /boot/grub/grub.cfg
+找到splash,后面插入acpi=off  //关闭高级电源管理接口
+
+quiet的意思是内核启动时候简化提示信息
+splash的意思是启动的时候使用图形化的进度条代替init的字符输出过程 
